@@ -6,7 +6,7 @@ from statsmodels.stats.proportion import proportions_ztest
 conversions = np.array([50, 65])
 
 # Sample sizes (number of visitors) for each group
-sample_sizes = np.array([1000, 980])
+sample_sizes = np.array([1000, 1000])
 
 # Perform two-sample z-test for proportions
 z_stat, p_value = proportions_ztest(conversions, sample_sizes)
